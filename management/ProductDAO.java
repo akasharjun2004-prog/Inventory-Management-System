@@ -88,9 +88,7 @@ public class ProductDAO
             pstm.setInt(1,id);
             int Delete=pstm.executeUpdate();
              System.out.println(Delete>0?"Product Deleted":"Product Not Found");  
-     //String sbl="Truncate table products restart Identy";
-     // PreparedStatement psvm = con.prepareStatement(sbl);
-      //psvm.executeUpdate();
+  
      
            
         } catch (SQLException e) {
@@ -104,6 +102,7 @@ public class ProductDAO
     }
 
    
+
 
 
 
